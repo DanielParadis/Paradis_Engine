@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <GL/glew.h>
-#include <GLFW\glfw3.h>
+#include <GLFW/glfw3.h>
 #include "BUS/message_bus.hpp"
 #include "renderer.hpp"
 
@@ -25,7 +25,7 @@ void renderer::init(bus* Bus)
 	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE); // To make MacOS happy; should not be needed
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE); // We don't want the old OpenGL
 	// We call the createWindow function. It creates a 1920x1080 window called renderer
-	Window = glfwCreateWindow(1920, 1080, "renderer", NULL, NULL);
+	Window = glfwCreateWindow(800, 600, "renderer", NULL, NULL);
 	glfwMakeContextCurrent(Window);
 	// We also initialise glew, which is the GL extension wrangler. Important if we use extensions
 	glewInit();

@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <GL/glew.h>
-#include <GLFW\glfw3.h>
+#include <GLFW/glfw3.h>
 #include "shader.hpp"
 
 // We will use this function to grab our shader code

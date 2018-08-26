@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1535307143 source:/home/daniel/Programming/Paradis_Engine/BUS/command.cpp
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+	"message.hpp"
+	"bus.hpp"
+	"node.hpp"
+	"command.hpp"
+
+1535307143 /home/daniel/Programming/Paradis_Engine/BUS/message.hpp
+
+1535307143 /home/daniel/Programming/Paradis_Engine/BUS/bus.hpp
+
+1535307143 /home/daniel/Programming/Paradis_Engine/BUS/node.hpp
+
+1535307143 /home/daniel/Programming/Paradis_Engine/BUS/command.hpp
+
+1535307143 source:/home/daniel/Programming/Paradis_Engine/BUS/message.cpp
+	<iostream>
+	<string>
+	"message.hpp"
+
+1535307143 source:/home/daniel/Programming/Paradis_Engine/BUS/node.cpp
+	<iostream>
+	<string>
+	<vector>
+	"message.hpp"
+	"bus.hpp"
+	"node.hpp"
+
+1535307299 source:/home/daniel/Programming/Paradis_Engine/main.cpp
+	<iostream>
+	<sstream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"BUS/message_bus.hpp"
+	"shader.hpp"
+	"renderer.hpp"
+
+1535307143 /home/daniel/Programming/Paradis_Engine/BUS/message_bus.hpp
+	"message.hpp"
+	"bus.hpp"
+	"node.hpp"
+	"command.hpp"
+
+1535307143 /home/daniel/Programming/Paradis_Engine/shader.hpp
+
+1535307143 /home/daniel/Programming/Paradis_Engine/renderer.hpp
+
+1535307364 source:/home/daniel/Programming/Paradis_Engine/renderer.cpp
+	<iostream>
+	<sstream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"BUS/message_bus.hpp"
+	"renderer.hpp"
+
+1535307369 source:/home/daniel/Programming/Paradis_Engine/shader.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"shader.hpp"
+
